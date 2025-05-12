@@ -1,7 +1,9 @@
 # CarDefectDetection
-Prepared by:
-Dr. Ali Mayya (model preparation, dataset creation and annotation, training, evaluation, and writing)
-Eng Ali Altrkby (App design and implementation)
+**Prepared by:**
+**Dr. Ali Mayya** (model preparation, dataset creation and annotation, training, evaluation, and writing)
+
+**Eng Ali Altrkby** (App design and implementation)
+
 Mission: Design and implement a basic image-based model that detects common types of vehicle damage such as scratches, dents, or broken parts. 
 Main Architecture: YOLOV8 (without pretrained weights)
 1.	Collect Dataset:
