@@ -65,7 +65,7 @@ Test Sample4:
 
 ** Precision, Recall, mAP50 Curves**
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/e61e46b8-c85b-4172-a7ae-8e6ea1cc18f0)
 
 
 
