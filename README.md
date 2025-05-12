@@ -15,6 +15,7 @@ o	Classes: broken_glass, Damaged_light_tire_parts, dent, scratch
 
 **Evaluation results:**
 Validation set:
+
 ![image](https://github.com/user-attachments/assets/bade578c-2d0f-4512-865a-b00008a2739a)
 
 
