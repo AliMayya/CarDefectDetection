@@ -46,7 +46,31 @@ Test Sample4:
 ![image](https://github.com/user-attachments/assets/25a7aa1e-7470-402a-abe2-07f26b467f71)
 
 
-Conclusion: Dataset needs more samples to make more roubust training (At least 1000 images with more than 3000 instances (bounding boxes)).
+**validation curves**
+
+
+![image](https://github.com/user-attachments/assets/1f53c4e9-1887-4424-a7da-2b349a33a465)
+
+![image](https://github.com/user-attachments/assets/7adda13b-41fb-4eb7-81c3-4ff6322c62ce)
+
+![image](https://github.com/user-attachments/assets/a63a676b-b3e1-4959-9582-c3fdf490d9bf)
+
+![image](https://github.com/user-attachments/assets/bd204d1e-51b5-41a4-9821-af4b4c3ef479)
+
+
+**Confusion Matrix**
+
+![image](https://github.com/user-attachments/assets/de5518dc-8ebc-4bb7-aad0-3fe68086331a)
+
+
+** Precision, Recall, mAP50 Curves**
+
+![Uploading image.png…]()
+
+
+
+
+**Conclusion:** Dataset needs more samples to make more roubust training (At least 1000 images with more than 3000 instances (bounding boxes)).
 
 Feel free to contact me: a.mayya1988@gmail.com
 
