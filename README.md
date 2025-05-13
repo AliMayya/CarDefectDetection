@@ -4,6 +4,17 @@
 
 **Eng Ali Altrkbi** (App design and implementation)
 
+## Table of Contents
+
+- [Part 1 (Backend)](#Part 1 (Backend))
+- [Model creation, training, and evaluation](#Model creation, training, and evaluation code)
+- [Evaluation results](#Evaluation results)
+- [Some test examples](#Test samples)
+- [Test samples from Internet](#Test samples from Internet)
+- [validation curves](#validation curves)
+- [Part 2 (frontend App)](#Part2 frontend (APP))
+- [Limitation and Future work](#Limitation and Future work)
+
 # Part 1 (Backend)
 Mission: Design and implement a basic image-based model that detects common types of vehicle damage such as scratches, dents, or broken parts. 
 Main Architecture: YOLOV8 (without pretrained weights)
@@ -15,7 +26,7 @@ Examples:
 ![image](https://github.com/user-attachments/assets/022920a0-80be-4c72-a108-79ddb7ed9143)
 
 
-3. Annotate dataset:
+2. Annotate dataset:
    We utilize LabelImg to annotate images using bounding boxes.
         labelImg . classes.txt
    Annotation in LabelImg example:
@@ -25,29 +36,29 @@ Examples:
 
    Dataset images and labels are located in Dataset.rar file
    
-4. Save images and Labels into two separate folders ("Images", "Labels")
+3. Save images and Labels into two separate folders ("Images", "Labels")
    
-6. Create YOLOV8 core model
+4. Create YOLOV8 core model
    
-8. Train model using the training set and apply the augmentation operations during training
+5. Train model using the training set and apply the augmentation operations during training
    
-10. Evaluate the trained model using both validation and test sets
+6. Evaluate the trained model using both validation and test sets
    
-**Model creation, training, and evaluation code**
+## Model creation, training, and evaluation code
 Code file: CarDefectsDetectionYOLOV8.ipynb
 Output trained model file: carDamageDetectYOLOV8.pt
 
-**Evaluation results:**
-Validation set:
+## Evaluation results
+**Validation set:**
 
 ![image](https://github.com/user-attachments/assets/bade578c-2d0f-4512-865a-b00008a2739a)
 
 
-Test Set:
+**Test Set:**
 
 ![image](https://github.com/user-attachments/assets/c5742c6c-52fd-450b-9cca-b240f2e8fe1f)
 
-**Test samples:**
+## Test samples
 Test sample1:
 
 ![image](https://github.com/user-attachments/assets/9062be5a-d4fc-48ba-a179-00a3bc95214e)
@@ -65,12 +76,12 @@ Test Sample4:
 ![image](https://github.com/user-attachments/assets/7e6abdd5-90f0-43e9-b459-9aa19f564c64)
 
 
-**Test samples from Internet**
+## Test samples from Internet
 
 ![image](https://github.com/user-attachments/assets/25a7aa1e-7470-402a-abe2-07f26b467f71)
 
 
-**validation curves**
+## validation curves
 
 
 ![image](https://github.com/user-attachments/assets/1f53c4e9-1887-4424-a7da-2b349a33a465)
@@ -99,7 +110,7 @@ Test Sample4:
 Feel free to contact me: a.mayya1988@gmail.com
 
 
-# Part2 frontend (APP)
+## Part2 frontend (APP)
 # Vehicle Damage Detection System App
 
 A computer vision application that detects and classifies vehicle damage such as scratches, dents, and broken parts using a YOLOv8 object detection model.
