@@ -15,7 +15,7 @@
 - [Part 2 (frontend App)](#Part2 frontend (APP))
 - [Limitation and Future work](#Limitation and Future work)
 
-# Part 1 (Backend)
+## Part 1 (Backend)
 Mission: Design and implement a basic image-based model that detects common types of vehicle damage such as scratches, dents, or broken parts. 
 Main Architecture: YOLOV8 (without pretrained weights)
 1.	Collect Dataset:
