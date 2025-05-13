@@ -5,17 +5,16 @@
 **Eng Ali Altrkbi** (App design and implementation)
 
 ## Table of Contents
-
-- [Part 1 (Backend)](#Part 1 (Backend))
-- [Model creation, training, and evaluation](#Model creation, training, and evaluation code)
-- [Evaluation results](#Evaluation results)
-- [Some test examples](#Test samples)
-- [Test samples from Internet](#Test samples from Internet)
+- [Part 1 Backend](#part 1 Backend)
+- [Model creation, training, and evaluation code](#model creation, training, and evaluation code)
+- [Evaluation results](#evaluation results)
+- [Test samples](#test samples)
+- [Test samples from Internet](#test samples from Internet)
 - [validation curves](#validation curves)
-- [Part 2 (frontend App)](#Part2 frontend (APP))
-- [Limitation and Future work](#Limitation and Future work)
+- [Part2 frontend APP](#part2 frontend (APP))
+- [Limitation and Future work](#limitation and Future work)
 
-## Part 1 (Backend)
+## Part 1 Backend
 Mission: Design and implement a basic image-based model that detects common types of vehicle damage such as scratches, dents, or broken parts. 
 Main Architecture: YOLOV8 (without pretrained weights)
 1.	Collect Dataset:
@@ -110,7 +109,7 @@ Test Sample4:
 Feel free to contact me: a.mayya1988@gmail.com
 
 
-## Part2 frontend (APP)
+## Part2 frontend APP
 # Vehicle Damage Detection System App
 
 A computer vision application that detects and classifies vehicle damage such as scratches, dents, and broken parts using a YOLOv8 object detection model.
