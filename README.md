@@ -4,7 +4,7 @@
 
 **Eng Ali Altrkbi** (App design and implementation)
 
-# Part 1 (Backend model)
+# Part 1 (Backend)
 Mission: Design and implement a basic image-based model that detects common types of vehicle damage such as scratches, dents, or broken parts. 
 Main Architecture: YOLOV8 (without pretrained weights)
 1.	Collect Dataset:
@@ -24,7 +24,7 @@ o	Classes: broken_glass, Damaged_light_tire_parts, dent, scratch
    
 10. Evaluate the trained model using both validation and test sets
    
-**Model creation, training, and evaluation code**
+## Model creation, training, and evaluation code
 Code file: CarDefectsDetectionYOLOV8.ipynb
 Output trained model file: carDamageDetectYOLOV8.pt
 
