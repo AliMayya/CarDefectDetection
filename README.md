@@ -14,10 +14,15 @@ o	Classes: broken_glass, Damaged_light_tire_parts, dent, scratch
 2. Annotate dataset:
    We utilize LabelImg to annotate images using bounding boxes.
         labelImg . classes.txt
-3. Save images and Labels into two separate folders ("Images", "Labels")
-4. Create YOLOV8 core model
-5. Train model using the training set and apply the augmentation operations during training
-6. Evaluate the trained model using both validation and test sets
+   Dataset images and labels are located in Dataset.rar file
+   
+4. Save images and Labels into two separate folders ("Images", "Labels")
+   
+6. Create YOLOV8 core model
+   
+8. Train model using the training set and apply the augmentation operations during training
+   
+10. Evaluate the trained model using both validation and test sets
    
 **Model creation, training, and evaluation code**
 Code file: CarDefectsDetectionYOLOV8.ipynb
