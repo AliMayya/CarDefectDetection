@@ -24,7 +24,7 @@ o	Classes: broken_glass, Damaged_light_tire_parts, dent, scratch
    
 10. Evaluate the trained model using both validation and test sets
    
-## Model creation, training, and evaluation code
+**Model creation, training, and evaluation code**
 Code file: CarDefectsDetectionYOLOV8.ipynb
 Output trained model file: carDamageDetectYOLOV8.pt
 
