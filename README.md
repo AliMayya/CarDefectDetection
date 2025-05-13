@@ -5,14 +5,14 @@
 **Eng Ali Altrkbi** (App design and implementation)
 
 ## Table of Contents
-- [Part 1 Backend](#part 1 Backend)
-- [Model creation, training, and evaluation code](#model creation, training, and evaluation code)
-- [Evaluation results](#evaluation results)
-- [Test samples](#test samples)
-- [Test samples from Internet](#test samples from Internet)
-- [validation curves](#validation curves)
-- [Part2 frontend APP](#part2 frontend (APP))
-- [Limitation and Future work](#limitation and Future work)
+- [Part 1 Backend](#part-1-backend)
+- [Model creation, training, and evaluation code](#model-creation-training-and-evaluation-code)
+- [Evaluation results](#evaluation-results)
+- [Test samples](#test-samples)
+- [Test samples from Internet](#test-samples-from-internet)
+- [Validation curves](#validation-curves)
+- [Part2 frontend APP](#part2-frontend-app)
+- [Limitation and Future work](#limitation-and-future-work)
 
 ## Part 1 Backend
 Mission: Design and implement a basic image-based model that detects common types of vehicle damage such as scratches, dents, or broken parts. 
