@@ -18,6 +18,10 @@ o	Classes: broken_glass, Damaged_light_tire_parts, dent, scratch
 4. Create YOLOV8 core model
 5. Train model using the training set and apply the augmentation operations during training
 6. Evaluate the trained model using both validation and test sets
+   
+**Model creation, training, and evaluation code**
+Code file: CarDefectsDetectionYOLOV8.ipynb
+Output trained model file: carDamageDetectYOLOV8.pt
 
 **Evaluation results:**
 Validation set:
