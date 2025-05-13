@@ -10,8 +10,12 @@ Main Architecture: YOLOV8 (without pretrained weights)
 1.	Collect Dataset:
 o	Self-collected images of vehicle damages: 70 images
 o	Classes: broken_glass, Damaged_light_tire_parts, dent, scratch
+Examples:
 
-2. Annotate dataset:
+![image](https://github.com/user-attachments/assets/022920a0-80be-4c72-a108-79ddb7ed9143)
+
+
+3. Annotate dataset:
    We utilize LabelImg to annotate images using bounding boxes.
         labelImg . classes.txt
    Annotation in LabelImg example:
@@ -207,5 +211,6 @@ The car damage detection model is based on YOLOv8, trained to detect the followi
 
 The model was trained on a diverse dataset of vehicle images with various damage types, captured from different angles and lighting conditions.
 
-
-
+## Limitation and Future work
+The main issue is the small dataset size
+Future work will increase the dataset size for a better and more robust training
