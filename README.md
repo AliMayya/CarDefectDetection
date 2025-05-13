@@ -190,6 +190,12 @@ python inference.py --image path/to/your/image.jpg --threshold 0.25
 ```
 
 The script will display the analysis results and save an annotated image.
+### Test example using the APP
+
+![61f500f0-8b64-42be-abc9-1d1655553e9e](https://github.com/user-attachments/assets/f2c4da2a-331d-460b-aa64-6da526cbc011)
+
+![4916e4fb-6658-4e89-a335-cb7c526c2a63](https://github.com/user-attachments/assets/82676f2a-076a-404a-8b54-45bdb771423b)
+
 
 ## Project Structure
 
