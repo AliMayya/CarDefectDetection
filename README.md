@@ -2,7 +2,7 @@
 **Prepared by:**
 **Dr. Ali Mayya** (model preparation, dataset creation and annotation, training, evaluation, and writing)
 
-**Eng Ali Altrkby** (App design and implementation)
+**Eng Ali Altrkbi** (App design and implementation)
 
 # Part 1 (Backend model)
 Mission: Design and implement a basic image-based model that detects common types of vehicle damage such as scratches, dents, or broken parts. 
