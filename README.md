@@ -14,6 +14,11 @@ o	Classes: broken_glass, Damaged_light_tire_parts, dent, scratch
 2. Annotate dataset:
    We utilize LabelImg to annotate images using bounding boxes.
         labelImg . classes.txt
+   Annotation in LabelImg example:
+   
+   ![image](https://github.com/user-attachments/assets/619c857d-ad3a-43c5-90b8-c398b436af32)
+   
+
    Dataset images and labels are located in Dataset.rar file
    
 4. Save images and Labels into two separate folders ("Images", "Labels")
